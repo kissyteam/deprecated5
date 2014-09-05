@@ -34,12 +34,12 @@
             alias: ['dom', 'event', 'io', 'anim', 'base', 'node', 'json', 'ua', 'cookie']
         },
         io: {
-            afterAttach: function (v) {
+            afterInit: function (v) {
                 S.ajax = S.Ajax = S.io = S.IO = v;
             }
         },
         node: {
-            afterAttach: function (v) {
+            afterInit: function (v) {
                 S.Node = S.NodeList = v;
                 S.one = v.one;
                 S.all = v.all;
@@ -51,7 +51,7 @@
         /*jshint loopfunc:true*/
         (function (m, p) {
             configs[m] = {
-                afterAttach: function (v) {
+                afterInit: function (v) {
                     S[p] = S[p] || v;
                 }
             };
