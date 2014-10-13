@@ -1,0 +1,21 @@
+{
+	"name" : "deprecated-5",
+	"version" : "1.0.0",
+	"description" : "You can keep most of KISSY@1.4.x usage in KISSY@5.0 by adding deprecated.js after seed.js",
+	"author": {
+	    "name": "weekeight",
+	    "email": "benfchen0418@gmail.com"
+	},
+	"main": "./build/deprecated.js",
+	"repository": {
+		"type": "git",
+		"url": "git@gitlab.alibaba-inc.com:kissy/deprecated-5.git"
+	},
+	"dependencies": {
+		"uglify-js" : "~2.4.15"
+	},
+	"bugs": {
+		"url": "http://gitlab.alibaba-inc.com/kissy/deprecated-5/issues"
+	},
+	"homepage": "http://gitlab.alibaba-inc.com/kissy/deprecated-5"
+}

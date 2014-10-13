@@ -1,0 +1,1 @@
+You can keep most of KISSY@1.4.x usage in KISSY@5.0 by adding deprecated.js after seed.js
