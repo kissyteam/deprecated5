@@ -6,7 +6,7 @@
 /*exported KISSY from modulex*/
 var KISSY = (function () {
     var S = {
-        version: '@VERSION@'
+        version: '5.0.0'
     };
     var EMPTY = '';
 
