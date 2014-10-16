@@ -8,7 +8,7 @@ deprecated-5 是一个兼容 KISSY@1.4.x 大部分用法的兼容包，使得在
 
 引入文件：
 
-	<script type="text/javascript" src="http://g.assets.daily.taobao.net/kissy/edge/2014.10.13/??seed.js,util.js,querystring.js"></script>
+	<script type="text/javascript" src="http://g.assets.daily.taobao.net/kissy/??edge/2014.10.13/seed.js,edge/2014.10.13/util.js,edge/2014.10.13/querystring.js,deprecated-5/deprecated.js"></script>
 	
 ## 兼容的用法
 
