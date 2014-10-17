@@ -26,4 +26,4 @@ deprecated5 是一个兼容 KISSY@1.4.x 大部分用法的兼容包，使得在 
 
 ## KISSY5 升级指南
 
-docs/upgrade.md
+https://github.com/kissyteam/deprecated5/blob/master/docs/upgrade.md
