@@ -1,38 +1,38 @@
-# KISSY5.0Ö÷ÒªÉı¼¶µã
+# KISSY5.0ä¸»è¦å‡çº§ç‚¹
 ------------------------------
 
-*ËµÃ÷£º*Õâ¸öÎÄµµÊÇKISSY5.0Ïà¶ÔKISSY1.4.xµÄÉı¼¶µã½éÉÜ£¬Ö÷Òª·ÖÎªÈı¸ö²¿·Ö£ºÄ£¿é¸üĞÂ¡¢ĞÂÔöÄ£¿é¡¢½¨ÒéÓÃ·¨¡£Ã¿¸ö²¿·ÖÒÔÄ£¿éÎªµ¥Î»½éÉÜÁĞ³öÉæ¼°µ½±ä»¯µÄÄ£¿é¼°Ïà¹ØÓÃ·¨¡£´ËÍâ£¬ÓÉÓÚ±ä»¯µÄµã±È½Ï¶à£¬Èç¹û²»¹»È«ÃæÏ¸ÖÂ£¬»¹Çë´ó¼Ò¶à¶àÖ¸³ö£¬Ò»ÆğÀ´ÍêÉÆÕâ¸öÎÄµµ¡£·Ç³£¸ĞĞ»£¡
+*è¯´æ˜ï¼š*è¿™ä¸ªæ–‡æ¡£æ˜¯KISSY5.0ç›¸å¯¹KISSY1.4.xçš„å‡çº§ç‚¹ä»‹ç»ï¼Œä¸»è¦åˆ†ä¸ºä¸‰ä¸ªéƒ¨åˆ†ï¼šæ¨¡å—æ›´æ–°ã€æ–°å¢æ¨¡å—ã€å»ºè®®ç”¨æ³•ã€‚æ¯ä¸ªéƒ¨åˆ†ä»¥æ¨¡å—ä¸ºå•ä½ä»‹ç»åˆ—å‡ºæ¶‰åŠåˆ°å˜åŒ–çš„æ¨¡å—åŠç›¸å…³ç”¨æ³•ã€‚æ­¤å¤–ï¼Œç”±äºå˜åŒ–çš„ç‚¹æ¯”è¾ƒå¤šï¼Œå¦‚æœä¸å¤Ÿå…¨é¢ç»†è‡´ï¼Œè¿˜è¯·å¤§å®¶å¤šå¤šæŒ‡å‡ºï¼Œä¸€èµ·æ¥å®Œå–„è¿™ä¸ªæ–‡æ¡£ã€‚éå¸¸æ„Ÿè°¢ï¼
 
-## Ä£¿é¸üĞÂ
+## æ¨¡å—æ›´æ–°
 
-1. **ÖÖ×ÓÎÄ¼ş seed**
+1. **ç§å­æ–‡ä»¶ seed**
 
-	1.1 KISSY@5.0 °æ±¾È¥µôÁË KISSY ¹Ø¼ü´Ê£¨²»ÔÙ´æÔÚKISSYÕâ¸öÈ«¾Ö±äÁ¿£¬ĞÂ°æ±¾µÄÈ«¾Ö±äÁ¿ modulex ×÷ÓÃ½üËÆ KISSY£©£¬¶ÀÁ¢³öĞÂÒ»´úÄ£¿é¼ÓÔØÆ÷[modulex](https://github.com/kissyteam/modulex)£¬¿Éµ¥¶À×÷Îª´¿´âµÄÄ£¿é¼ÓÔØÆ÷Ê¹ÓÃ¡£Êµ¼ÊÉÏ£¬ÖÖ×ÓÎÄ¼şseed.jsÊÇÓÉ modulex + feature + ua + meta ËÄ²¿·Ö×é³É¡£
+	1.1 KISSY@5.0 ç‰ˆæœ¬å»æ‰äº† KISSY å…³é”®è¯ï¼ˆä¸å†å­˜åœ¨KISSYè¿™ä¸ªå…¨å±€å˜é‡ï¼Œæ–°ç‰ˆæœ¬çš„å…¨å±€å˜é‡ modulex ä½œç”¨è¿‘ä¼¼ KISSYï¼‰ï¼Œç‹¬ç«‹å‡ºæ–°ä¸€ä»£æ¨¡å—åŠ è½½å™¨[modulex](https://github.com/kissyteam/modulex)ï¼Œå¯å•ç‹¬ä½œä¸ºçº¯ç²¹çš„æ¨¡å—åŠ è½½å™¨ä½¿ç”¨ã€‚å®é™…ä¸Šï¼Œç§å­æ–‡ä»¶seed.jsæ˜¯ç”± modulex + feature + ua + meta å››éƒ¨åˆ†ç»„æˆã€‚
 
 		//deprecated usage
-		KISSY.config({  });  //ÅäÖÃ
+		KISSY.config({  });  //é…ç½®
 
-		KISSY.add('modName', ['modDep1'], function(S, require, exports, module){  //Ìí¼ÓÄ£¿é
+		KISSY.add('modName', ['modDep1'], function(S, require, exports, module){  //æ·»åŠ æ¨¡å—
 
 		}); 
-		KISSY.use(['json'], function(S, JSON){   //ÒıÓÃÄ£¿é
+		KISSY.use(['json'], function(S, JSON){   //å¼•ç”¨æ¨¡å—
 			//S === KISSY
 		});
 
 		//now usage
-		require.config({  });   //ÅäÖÃ
+		require.config({  });   //é…ç½®
 
-		define('modName', ['modDep1'], function(require, exports, module){  //Ìí¼ÓÄ£¿é 
+		define('modName', ['modDep1'], function(require, exports, module){  //æ·»åŠ æ¨¡å— 
 
 		});
 
-		require(['json'], function(JSON){  //ÒıÓÃÄ£¿é
+		require(['json'], function(JSON){  //å¼•ç”¨æ¨¡å—
 			// no `S` here
 		})
 
-	1.2 Ñ¹ËõµÄÎÄ¼şÊÇ *.js£¬Î´Ñ¹ËõµÄÊÇ *-debug.js£¬ÓëÒÔÇ°µÄ \*-min.jsÇø·Ö¿ª¡£
+	1.2 å‹ç¼©çš„æ–‡ä»¶æ˜¯ *.jsï¼Œæœªå‹ç¼©çš„æ˜¯ *-debug.jsï¼Œä¸ä»¥å‰çš„ \*-min.jsåŒºåˆ†å¼€ã€‚
 
-	1.3 È¥³ıÔÚÒıÈëseed.jsµÄurlÉÏ¼ÓÉÏ `?ks-debug` À´ÅäÖÃ `KISSY.Config.debug` µÄÂß¼­£¬ÈçÒª´øµ÷ÊÔÓï¾äÖ±½ÓÒıÓÃseed-debug.js£¬²»´øµ÷ÊÔÓï¾ä£¨Ñ¹Ëõ£©µÄÒıÓÃseed.js
+	1.3 å»é™¤åœ¨å¼•å…¥seed.jsçš„urlä¸ŠåŠ ä¸Š `?ks-debug` æ¥é…ç½® `KISSY.Config.debug` çš„é€»è¾‘ï¼Œå¦‚è¦å¸¦è°ƒè¯•è¯­å¥ç›´æ¥å¼•ç”¨seed-debug.jsï¼Œä¸å¸¦è°ƒè¯•è¯­å¥ï¼ˆå‹ç¼©ï¼‰çš„å¼•ç”¨seed.js
 
 		//deprecated usage
 		<script src="seed.js?ks-debug">
@@ -41,7 +41,7 @@
 		<script src="seed-debug.js">  //for debug
 		<script src="seed.js">        //no debug
 
-	1.4 ´Óseed.jsÀïÃæ²ğ·Ö³ö`util`Ä£¿é£¬Ìæ´úÖ®Ç°`lang`Ä£¿é¡£ÕâÑùÈç¹ûÖ»ÊÇÒıÈëseed.jsµÄ»°£¬ÒÔÇ°`lang`Ä£¿éµÄº¯Êı£¬Èç `escapeHTML`¡¢`unique`µÈº¯ÊıÎŞ·¨Ö±½ÓÊ¹ÓÃ£¬ĞèÒª¶îÍâÒıÈë`util`Ä£¿é¡£´ËÍâ£¬`isNull`¡¢`isUndefined`¡¢`fromeUnicode`¡¢`equals`Õâ¼¸¸öº¯Êı±»ÒÆ³ı¡£
+	1.4 ä»seed.jsé‡Œé¢æ‹†åˆ†å‡º`util`æ¨¡å—ï¼Œæ›¿ä»£ä¹‹å‰`lang`æ¨¡å—ã€‚è¿™æ ·å¦‚æœåªæ˜¯å¼•å…¥seed.jsçš„è¯ï¼Œä»¥å‰`lang`æ¨¡å—çš„å‡½æ•°ï¼Œå¦‚ `escapeHTML`ã€`unique`ç­‰å‡½æ•°æ— æ³•ç›´æ¥ä½¿ç”¨ï¼Œéœ€è¦é¢å¤–å¼•å…¥`util`æ¨¡å—ã€‚æ­¤å¤–ï¼Œ`isNull`ã€`isUndefined`ã€`fromeUnicode`ã€`equals`è¿™å‡ ä¸ªå‡½æ•°è¢«ç§»é™¤ã€‚
 
 		//deprecated usage
 		KISSY.ready(function(S){
@@ -55,7 +55,7 @@
 			//use Util.XXX
 		})
 
-	1.5 Cookie/IO/io/Amim/DOM/JSON/ajax/Ajax ÕâĞ©½Ó¿Ú²»ÔÙ¹ÒÔÚÈ«¾Ö¶ÔÏóKISSYÏÂÁË£¬ĞèÒªÒıÓÃÏàÓ¦Ä£¿éµÄÊ±ºòÈ¡µÃÏàÓ¦µÄ½Ó¿ÚÀ´Ê¹ÓÃ¡£
+	1.5 Cookie/IO/io/Amim/DOM/JSON/ajax/Ajax è¿™äº›æ¥å£ä¸å†æŒ‚åœ¨å…¨å±€å¯¹è±¡KISSYä¸‹äº†ï¼Œéœ€è¦å¼•ç”¨ç›¸åº”æ¨¡å—çš„æ—¶å€™å–å¾—ç›¸åº”çš„æ¥å£æ¥ä½¿ç”¨ã€‚
 
 		//deprecated usage
 		KISSY.use('dom,io', function(S){
@@ -69,7 +69,7 @@
 			//use IO
 		})
 
-	1.6 È¥³ı ignorePackageNameInUri ÅäÖÃ (Ä¬ÈÏ true) [issue for detail](https://github.com/kissyteam/kissy/issues/593)
+	1.6 å»é™¤ ignorePackageNameInUri é…ç½® (é»˜è®¤ true) [issue for detail](https://github.com/kissyteam/kissy/issues/593)
 
 		//deprecated usage
 		KISSY.config({
@@ -90,18 +90,18 @@
 			}
 		})
 
-	1.7 ÏÖÔÚµÄseed.jsÆäÊµÊÇÓÉ modulex + ua + feature + meta ËÄ¸ö²¿·Ö×é³ÉµÄ¡£
+	1.7 ç°åœ¨çš„seed.jså…¶å®æ˜¯ç”± modulex + ua + feature + meta å››ä¸ªéƒ¨åˆ†ç»„æˆçš„ã€‚
 	
 		<script src='??modulex.js,ua.js,feature.js,meta.js'></script>
-		//Ïàµ±ÓÚ
+		//ç›¸å½“äº
 		<script src='seed.js'></script>
 	
-	1.8 Õë¶ÔÉÏÃæµÄ1.3ºÍ1.4»¹ÓĞÏÂÃæ½«Ëµµ½µÄeventÄ£¿é²ğ·Ö3.1£¬ÒÔ¼°KISSY@1.4.xµÄ´ó²¿·ÖÓÃ·¨¡£¿ÉÒÔ¶îÍâÒıÈëdeprecated.js¼æÈİÎÄ¼şÀ´¼æÈİÀÏÓÃ·¨£¬[¼æÈİ°üÏîÄ¿](http://gitlab.alibaba-inc.com/kissy/deprecated-5)
+	1.8 é’ˆå¯¹ä¸Šé¢çš„1.3å’Œ1.4è¿˜æœ‰ä¸‹é¢å°†è¯´åˆ°çš„eventæ¨¡å—æ‹†åˆ†3.1ï¼Œä»¥åŠKISSY@1.4.xçš„å¤§éƒ¨åˆ†ç”¨æ³•ã€‚å¯ä»¥é¢å¤–å¼•å…¥deprecated.jså…¼å®¹æ–‡ä»¶æ¥å…¼å®¹è€ç”¨æ³•ï¼Œ[å…¼å®¹åŒ…é¡¹ç›®](https://github.com/kissyteam/deprecated5)
 
-		//ÔÚÒıÈëseed.jsÍ¬Ê±ÒıÈëdeprecated.jsÀ´¼æÈİKISSY@1.4.xµÄ´ó²¿·ÖÓÃ·¨
+		//åœ¨å¼•å…¥seed.jsåŒæ—¶å¼•å…¥deprecated.jsæ¥å…¼å®¹KISSY@1.4.xçš„å¤§éƒ¨åˆ†ç”¨æ³•
 		<script src='http://g.tbcdn.cn/kissy/edge/2014.07.16/??seed.js,deprecated.js'></script>
 
-	1.9 Ôö¼Ó°üÅäÖÃ filter£¬È¥³ı×Ô¶¯¼ÓÔØ debug Ä£¿é»úÖÆ¡£[issue for detail](https://github.com/kissyteam/kissy/issues/604)
+	1.9 å¢åŠ åŒ…é…ç½® filterï¼Œå»é™¤è‡ªåŠ¨åŠ è½½ debug æ¨¡å—æœºåˆ¶ã€‚[issue for detail](https://github.com/kissyteam/kissy/issues/604)
 
 		//deprecated usage
 		KISSY.config({
@@ -133,9 +133,9 @@
 		//use('a/a') -> http://a/a-debug.js
 		//use('b/b') -> http://b/b.js
 
-2. **anim**Ä£¿é
+2. **anim**æ¨¡å—
 
-	2.1 animÄ£¿é±»²ğ·Ö³öanim/timerºÍanim/transitionÁ½¸öÄ£¿é¡£use 'anim' Ê±£¬¶ÔÓÚÖ§³Öcss3µÄä¯ÀÀÆ÷£¬KISSY²»»á¼ÓÔØanim/timerÄ£¿é£¬¶øÊÇÊ¹ÓÃanim/transitionÄ£¿é¡£[issue for detail](https://github.com/kissyteam/kissy/issues/582)¡£´ËÍâ£¬Èç¹û½öÊÇÏë¶Ô¹ö¶¯Ìõ×ö¶¯»­£¬ÓÖ¾õµÃanim/timerÄ£¿é¹ı´óµÄ»°¿ÉÒÔ¿¼ÂÇÊ¹ÓÃgalleryÉÏÃæµÄÒ»¸öĞ¡×é¼ş[attr-anim](http://gallery.kissyui.com/attr-anim/doc/guide/index.html)
+	2.1 animæ¨¡å—è¢«æ‹†åˆ†å‡ºanim/timerå’Œanim/transitionä¸¤ä¸ªæ¨¡å—ã€‚use 'anim' æ—¶ï¼Œå¯¹äºæ”¯æŒcss3çš„æµè§ˆå™¨ï¼ŒKISSYä¸ä¼šåŠ è½½anim/timeræ¨¡å—ï¼Œè€Œæ˜¯ä½¿ç”¨anim/transitionæ¨¡å—ã€‚[issue for detail](https://github.com/kissyteam/kissy/issues/582)ã€‚æ­¤å¤–ï¼Œå¦‚æœä»…æ˜¯æƒ³å¯¹æ»šåŠ¨æ¡åšåŠ¨ç”»ï¼Œåˆè§‰å¾—anim/timeræ¨¡å—è¿‡å¤§çš„è¯å¯ä»¥è€ƒè™‘ä½¿ç”¨galleryä¸Šé¢çš„ä¸€ä¸ªå°ç»„ä»¶[attr-anim](http://gallery.kissyui.com/attr-anim/doc/guide/index.html)
 
 		//deprecated usage
 		KISSY.use('anim', function(S){
@@ -145,34 +145,34 @@
 			},{
 				easing : 'ease-in',
 				duration : 3,
-				//¸ù¾İÅäÖÃÏî useTransition À´ÅĞ¶ÏÊÇ·ñÊ¹ÓÃ css3 transition À´×ö¶¯»­
-				useTransition : true   //Ê¹ÓÃcss3 transitionÌáÉıĞÔÄÜ, Ä¬ÈÏ false
+				//æ ¹æ®é…ç½®é¡¹ useTransition æ¥åˆ¤æ–­æ˜¯å¦ä½¿ç”¨ css3 transition æ¥åšåŠ¨ç”»
+				useTransition : true   //ä½¿ç”¨css3 transitionæå‡æ€§èƒ½, é»˜è®¤ false
 			});
 		})	
 
 		//now usage
 		require(['anim'], function(Anim){
-			//×Ô¶¯Ê¶±ğ£¬Ö§³Öcss3 transitionµÄä¯ÀÀÆ÷×Ô¶¯¼ÓÔØ anim/transition Ä£¿é£¬·ñÔò×Ô¶¯¼ÓÔØ anim/timer Ä£¿é
+			//è‡ªåŠ¨è¯†åˆ«ï¼Œæ”¯æŒcss3 transitionçš„æµè§ˆå™¨è‡ªåŠ¨åŠ è½½ anim/transition æ¨¡å—ï¼Œå¦åˆ™è‡ªåŠ¨åŠ è½½ anim/timer æ¨¡å—
 			//use Anim
 		})
 
-3. **event**Ä£¿é
+3. **event**æ¨¡å—
 	
-	3.1 È¥µôÁË`event`Ä£¿é£¬Ï¸Á£»¯ event¡£²ğ·Ö³ÉÁËÈı²¿·Ö£ºevent-dom ¡¢ event-custom ºÍ event-dom/gesture/* ¡£
+	3.1 å»æ‰äº†`event`æ¨¡å—ï¼Œç»†ç²’åŒ– eventã€‚æ‹†åˆ†æˆäº†ä¸‰éƒ¨åˆ†ï¼ševent-dom ã€ event-custom å’Œ event-dom/gesture/* ã€‚
 
 		//deprecated usage
 		KISSY.use('event', function(S, Event){
-			//dom ÊÂ¼ş
+			//dom äº‹ä»¶
 			Event.on('#test', 'click', function(ev){
 				//do something
 			});
 
-			//ÒÆ¶¯¶ËÊÂ¼ş
+			//ç§»åŠ¨ç«¯äº‹ä»¶
 			Event.on(document, "swipe", function (ev) {
 			    alert(ev.type + ' : fired');
 			});
 
-			//×Ô¶¨ÒåÊÂ¼ş
+			//è‡ªå®šä¹‰äº‹ä»¶
 			var myObj = {};
 			S.mix(myObj, Event.Target);
 			myObj.on('willBeFired', function(ev){
@@ -184,21 +184,21 @@
 
 		//now usage-------------------------
 
-		//dom ÊÂ¼ş
+		//dom äº‹ä»¶
 		require(['event-dom'], function(DomEvent){  
 			DomEvent.on('#test', 'click', function(ev){
 				//do something
 			});
 		});
 
-		//ÒÆ¶¯¶ËÊÂ¼ş
+		//ç§»åŠ¨ç«¯äº‹ä»¶
 		require(['event-dom', 'event-dom/gesture/swipe'], function(DomEvent, SwipeGesture){
 			DomEvent.on(document, SwipeGesture.SWIPE, function(ev){
 				alert(ev.type + ' : fired');
 			});
 		});
 
-		//×Ô¶¨ÒåÊÂ¼ş
+		//è‡ªå®šä¹‰äº‹ä»¶
 		require(['util','event-custom'], function(Util, CustomEvent){
 			var myObj = {};
 			Util.mix(myObj, CustomEvent.Target);
@@ -208,7 +208,7 @@
 			myObj.fire('willBeFired');
 		});
 
-	3.2 É¾³ı valuechange ÊÂ¼ş£¬Ö§³Ö input ÊÂ¼ş [issue for detail](https://github.com/kissyteam/kissy/issues/549)
+	3.2 åˆ é™¤ valuechange äº‹ä»¶ï¼Œæ”¯æŒ input äº‹ä»¶ [issue for detail](https://github.com/kissyteam/kissy/issues/549)
 
 		//deprecated usage
 		KISSY.use('event', function(S, Event){
@@ -224,9 +224,9 @@
 			});
 		});
 
-4. **combobox**Ä£¿é
+4. **combobox**æ¨¡å—
 
-	4.1 ²ğ·Ö³öcombobox/multi-wordÄ£¿éÈ¡´úÒÔÇ°µÄComboBox.MultiValueComboBox£¬²¢È¥µô`Combobox.FilterSelect`
+	4.1 æ‹†åˆ†å‡ºcombobox/multi-wordæ¨¡å—å–ä»£ä»¥å‰çš„ComboBox.MultiValueComboBoxï¼Œå¹¶å»æ‰`Combobox.FilterSelect`
 
 		//deprecated usage
 		KISSY.use('combobox', function(S, ComboBox){
@@ -238,19 +238,19 @@
 			//use MultiWord
 		})
 
-5. **xtemplate**Ä£¿éµÄÊ¹ÓÃÓï·¨ºÍÒıÓÃ·½Ê½¶¼ÓĞºÜ´ó¸Ä±ä£¬ÒÑ¾­ÍêÈ«´ÓKISSY°şÀë³öÀ´¡£¿ÉÒÔµ¥¶ÀÊ¹ÓÃ£¬Ò²¿ÉÒÔºÍKISSYÒ»ÆğÊ¹ÓÃ£¬ÔÚnodejsÏÂÊ¹ÓÃ¡£¾ßÌåÓÃ·¨Ö±½Ó¿´[xtemplate](https://github.com/kissyteam/xtemplate)
+5. **xtemplate**æ¨¡å—çš„ä½¿ç”¨è¯­æ³•å’Œå¼•ç”¨æ–¹å¼éƒ½æœ‰å¾ˆå¤§æ”¹å˜ï¼Œå·²ç»å®Œå…¨ä»KISSYå‰¥ç¦»å‡ºæ¥ã€‚å¯ä»¥å•ç‹¬ä½¿ç”¨ï¼Œä¹Ÿå¯ä»¥å’ŒKISSYä¸€èµ·ä½¿ç”¨ï¼Œåœ¨nodejsä¸‹ä½¿ç”¨ã€‚å…·ä½“ç”¨æ³•ç›´æ¥çœ‹[xtemplate](https://github.com/kissyteam/xtemplate)
 
-6. È¥³ıÁË **uri** Ä£¿é£¬¼´²»ÄÜÔÙÊ¹ÓÃ `uri` Ä£¿éÁË¡£
+6. å»é™¤äº† **uri** æ¨¡å—ï¼Œå³ä¸èƒ½å†ä½¿ç”¨ `uri` æ¨¡å—äº†ã€‚
 
-## ĞÂÔöÄ£¿é/¹¦ÄÜ
+## æ–°å¢æ¨¡å—/åŠŸèƒ½
 
-2. **util**Ä£¿é£¬ÕâÊÇ´Óseed.jsÀï²ğ·Ö³öÀ´µÄÒ»¸öunderscoreµÄº¯Êı¼¯ºÏ£¬Ïà¹ØÓÃ·¨²Î¿¼ ¡°Ä£¿é¸üĞÂ -> 1.3¡±
+2. **util**æ¨¡å—ï¼Œè¿™æ˜¯ä»seed.jsé‡Œæ‹†åˆ†å‡ºæ¥çš„ä¸€ä¸ªunderscoreçš„å‡½æ•°é›†åˆï¼Œç›¸å…³ç”¨æ³•å‚è€ƒ â€œæ¨¡å—æ›´æ–° -> 1.3â€
 
-3. **node**Ä£¿é
+3. **node**æ¨¡å—
 
-	2.1 `node`Ä£¿é¼æÈİjQuery¡£ÏêÇé£º[issue for detail](https://github.com/kissyteam/kissy/issues/648)
+	2.1 `node`æ¨¡å—å…¼å®¹jQueryã€‚è¯¦æƒ…ï¼š[issue for detail](https://github.com/kissyteam/kissy/issues/648)
 
-		//ÒÔÇ°µÄÓÃ·¨£¬ÏÖÔÚÈÔ¿ÉÒÔÊ¹ÓÃ£¬²»¹ı½¨ÒéÊ¹ÓÃĞÂÓÃ·¨
+		//ä»¥å‰çš„ç”¨æ³•ï¼Œç°åœ¨ä»å¯ä»¥ä½¿ç”¨ï¼Œä¸è¿‡å»ºè®®ä½¿ç”¨æ–°ç”¨æ³•
 		KISSY.use('node', function(S, Node){
 			var $ = Node.all; 
 			//use $ like jQuery
@@ -261,11 +261,11 @@
 			//use $ as jQuery
 		});
 
-4. Ôö¼Ó [path](http://docs.kissyui.com/5.0/api/classes/Path.html)/[url](http://docs.kissyui.com/5.0/api/classes/Url.html)/[querystring](http://docs.kissyui.com/5.0/api/classes/Querystring.html) Ä£¿é£¬ api µÈÍ¬ nodejs
+4. å¢åŠ  [path](http://docs.kissyui.com/5.0/api/classes/Path.html)/[url](http://docs.kissyui.com/5.0/api/classes/Url.html)/[querystring](http://docs.kissyui.com/5.0/api/classes/Querystring.html) æ¨¡å—ï¼Œ api ç­‰åŒ nodejs
 
-5. **event**Ä£¿é
+5. **event**æ¨¡å—
 
-	5.1 Ö§³ÖdragÊÖÊÆ[issue for detail](https://github.com/kissyteam/kissy/issues/573)
+	5.1 æ”¯æŒdragæ‰‹åŠ¿[issue for detail](https://github.com/kissyteam/kissy/issues/573)
 		
 		//example usage
 		var DragType = require('event/gesture/drag');
@@ -279,7 +279,7 @@
 			// e.startPos;
 		});
 
-	5.2 Ö§³Öedge-dragÊÖÊÆ[issue for detail](https://github.com/kissyteam/kissy/issues/597)
+	5.2 æ”¯æŒedge-dragæ‰‹åŠ¿[issue for detail](https://github.com/kissyteam/kissy/issues/597)
 
 		//similar to ios/android notify menu
 		var EdgeDragType = require('event/gesture/edge-drag');
@@ -291,9 +291,9 @@
 			// e.velocityY
 		});
 
-6. **combobox**Ä£¿é
+6. **combobox**æ¨¡å—
 
-	6.1 Ôö¼ÓplaceholderÅäÖÃ£¬Õ¼Î»·û½»»¥Í¬Ô­ÉúĞĞÎªÒ»ÖÂ.[issue for detail](https://github.com/kissyteam/kissy/issues/655)
+	6.1 å¢åŠ placeholderé…ç½®ï¼Œå ä½ç¬¦äº¤äº’åŒåŸç”Ÿè¡Œä¸ºä¸€è‡´.[issue for detail](https://github.com/kissyteam/kissy/issues/655)
 
 		require(["combobox"], function (ComboBox) {
 		  new ComboBox({
@@ -304,9 +304,9 @@
 		  });
 		});
 
-	6.2 Ôö¼ÓÇå³ı¹¦ÄÜ[issue for detail](https://github.com/kissyteam/kissy/issues/617)
+	6.2 å¢åŠ æ¸…é™¤åŠŸèƒ½[issue for detail](https://github.com/kissyteam/kissy/issues/617)
 
-7. **overlay**Ä£¿éÔö¼ÓcloseTextÅäÖÃ[issue for detail](https://github.com/kissyteam/kissy/issues/657)
+7. **overlay**æ¨¡å—å¢åŠ closeTexté…ç½®[issue for detail](https://github.com/kissyteam/kissy/issues/657)
 
 		//example
 		require(['overlay'], function(Overlay){
@@ -315,17 +315,17 @@
 			});
 		})
 
-8. **scoll-view**Ä£¿é
+8. **scoll-view**æ¨¡å—
 
-	8.1 Ôö¼ÓÖ§³Öpull-up-to-refresh[issue for detail](https://github.com/kissyteam/kissy/issues/625)¡£[apiÎÄµµ ScrollView.Plugin.PullToRefresh](http://docs.kissyui.com/5.0/api/classes/ScrollView.Plugin.PullToRefresh.html) ¡¢[demo](http://docs.kissyui.com/5.0/demos/scroll-view/pull-to-refresh.html)
+	8.1 å¢åŠ æ”¯æŒpull-up-to-refresh[issue for detail](https://github.com/kissyteam/kissy/issues/625)ã€‚[apiæ–‡æ¡£ ScrollView.Plugin.PullToRefresh](http://docs.kissyui.com/5.0/api/classes/ScrollView.Plugin.PullToRefresh.html) ã€[demo](http://docs.kissyui.com/5.0/demos/scroll-view/pull-to-refresh.html)
 
-9. **menu**Ä£¿é
+9. **menu**æ¨¡å—
 
-	9.1 Ôö¼Óµ¥Ñ¡²Ëµ¥¹¦ÄÜ[issue for detail](https://github.com/kissyteam/kissy/issues/626)¡£[Menu.RadioItem apiÎÄµµ](http://docs.kissyui.com/5.0/api/classes/Menu.RadioItem.html) ¡¢[demo](http://docs.kissyui.com/5.0/demos/menu/radio.html)
+	9.1 å¢åŠ å•é€‰èœå•åŠŸèƒ½[issue for detail](https://github.com/kissyteam/kissy/issues/626)ã€‚[Menu.RadioItem apiæ–‡æ¡£](http://docs.kissyui.com/5.0/api/classes/Menu.RadioItem.html) ã€[demo](http://docs.kissyui.com/5.0/demos/menu/radio.html)
 
-10. **tabs**Ä£¿é
+10. **tabs**æ¨¡å—
 
-	10.1 Ôö¼ÓclosableÅäÖÃÅĞ¶ÏÊÇ·ñ³öÏÖ¹Ø±Õ°´Å¥ÒÆ³ıtabÏî [issue for detail](https://github.com/kissyteam/kissy/issues/340)¡£[tabs apiÎÄµµ](http://docs.kissyui.com/5.0/api/classes/Tabs.html) ¡¢[demo](http://docs.kissyui.com/5.0/demos/tabs/index.html)
+	10.1 å¢åŠ closableé…ç½®åˆ¤æ–­æ˜¯å¦å‡ºç°å…³é—­æŒ‰é’®ç§»é™¤tabé¡¹ [issue for detail](https://github.com/kissyteam/kissy/issues/340)ã€‚[tabs apiæ–‡æ¡£](http://docs.kissyui.com/5.0/api/classes/Tabs.html) ã€[demo](http://docs.kissyui.com/5.0/demos/tabs/index.html)
 
 		//example
 		require(['tabs'], function(Tabs){
@@ -340,30 +340,31 @@
 	                {
 	                    title : 'title of tab-2',
 	                    content : 'tab-2 content',
-	                    selected : true   //Ä¬ÈÏÑ¡ÖĞÕâ¸ötab
+	                    selected : true   //é»˜è®¤é€‰ä¸­è¿™ä¸ªtab
 	                },
 	                {
 	                    title : 'title of tab-3',
 	                    content : 'tab-3 content',
-	                    closable : true    //ÏÔÊ¾¹Ø±Õ°´Å¥£¬µã»÷É¾³ıtab
+	                    closable : true    //æ˜¾ç¤ºå…³é—­æŒ‰é’®ï¼Œç‚¹å‡»åˆ é™¤tab
 	                }
 	            ]
 	        }).render();
 	    });
 
-11. ĞÂÔö [navigation-view](http://docs.kissyui.com/5.0/guides/navigation-view/index.html) Ä£¿éºÍ [router](http://docs.kissyui.com/5.0/guides/router/index.html) Ä£¿é
+11. æ–°å¢ [navigation-view](http://docs.kissyui.com/5.0/guides/navigation-view/index.html) æ¨¡å—å’Œ [router](http://docs.kissyui.com/5.0/guides/router/index.html) æ¨¡å—
 
 
 
-## ½¨ÒéÓÃ·¨
+## å»ºè®®ç”¨æ³•
 
-1. KISSY@5.0 Ö§³Ö commonjs ºÍ amd Ä£¿é¹æ·¶£¬µ«ÊÇÔÚ´Ë½¨ÒéÊ¹ÓÃ commonjs ¹æ·¶
+1. KISSY@5.0 æ”¯æŒ commonjs å’Œ amd æ¨¡å—è§„èŒƒï¼Œä½†æ˜¯åœ¨æ­¤å»ºè®®ä½¿ç”¨ commonjs è§„èŒƒ
 
-		define('modName', ['modDep1'], function(require, exports, module){  //Ìí¼ÓÄ£¿é 
+		define('modName', ['modDep1'], function(require, exports, module){  //æ·»åŠ æ¨¡å— 
 			var modDep1 = require('modDep1');
 			//...
 		});
 
-		require(['json'], function(JSON){  //ÒıÓÃÄ£¿é
+		require(['json'], function(JSON){  //å¼•ç”¨æ¨¡å—
 			
 		});
+
