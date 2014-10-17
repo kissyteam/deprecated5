@@ -1,6 +1,6 @@
 # 综述
 
-deprecated-5 是一个兼容 KISSY@1.4.x 大部分用法的兼容包，使得在 KISSY@5.0 下仍然可以使用大部分 KISSY@1.4.x 的用法。旨在当项目从1.4.x升级到5.0时更加平稳，愉快。
+deprecated5 是一个兼容 KISSY@1.4.x 大部分用法的兼容包，使得在 KISSY@5.0 下仍然可以使用大部分 KISSY@1.4.x 的用法。旨在当项目从1.4.x升级到5.0时更加平稳，愉快。
 
 如要了解 KISSY@5.0 相对 KISSY@1.4.x 具体有哪些变化，请查看 [KISSY5.0主要升级点](http://gitlab.alibaba-inc.com/wongguang.wg/kissy-up/tree/master/document/1.4-to-1.5)
 
@@ -22,3 +22,8 @@ deprecated-5 是一个兼容 KISSY@1.4.x 大部分用法的兼容包，使得在
 5. S.namespace 仍可用
 6. 仍可通过 KISSY.use('event') 来加载事件处理模块，但不包括手势事件
 7. ...
+
+
+## KISSY5 升级指南
+
+docs/upgrade.md
