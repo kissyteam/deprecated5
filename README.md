@@ -9,8 +9,8 @@ deprecated5 是一个兼容 KISSY@1.4.x 大部分用法的兼容包，使得在 
 引入文件：
 
 ```html
-<script type="text/javascript" src="//g.alicdn.com/kissy/k/5.0.0/seed.js,util.js,querystring.js" data-config='{combine:true}'></script>
-<script type="text/javascript" src="//g.alicdn.com/kissy/deprecated-5/deprecated.js"></script>
+<script type="text/javascript" src="//g.alicdn.com/kissy/k/5.0.0/??seed.js,util.js,querystring.js" data-config='{combine:true}'></script>
+<script type="text/javascript" src="//g.alicdn.com/kissy/deprecated-5/1.0.1/deprecated.js"></script>
 ```
 
 ## 兼容的用法
